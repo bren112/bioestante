@@ -138,14 +138,14 @@ function Ebook() {
       >
         <DialogTitle>Confirmar Exclusão</DialogTitle>
         <DialogContent>
-          <p>Deseja realmente excluir este artigo?</p>
+          <p>Deseja realmente remover este artigo?</p>
         </DialogContent>
         <DialogActions>
           <Button onClick={closeConfirmDialog} color="primary">
             Cancelar
           </Button>
           <Button onClick={deleteArticle} color="secondary">
-            Excluir
+            Remover
           </Button>
         </DialogActions>
       </Dialog>

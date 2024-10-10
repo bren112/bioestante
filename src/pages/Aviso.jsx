@@ -108,7 +108,7 @@ function Aviso() {
         {avisos.map((aviso) => (
           <li key={aviso.id} className="aviso-item">
             {'"'+aviso.titulo+'"'}
-            <button id='excluir' onClick={() => handleDelete(aviso.id)}>Excluir</button>
+            <button id='excluir' onClick={() => handleDelete(aviso.id)}>Remover</button>
           </li>
         ))}
       </ul>

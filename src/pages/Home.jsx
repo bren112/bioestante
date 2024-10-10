@@ -118,7 +118,7 @@ function Home() {
                         <p>Senha: {usuario.senha}</p>
                         <div className="btns">
                             <button onClick={() => handleEditClick(usuario)}>Editar</button>
-                            <button id="excluir" onClick={() => handleDelete(usuario.id)}>Excluir</button>
+                            <button id="excluir" onClick={() => handleDelete(usuario.id)}>Remover</button>
                         </div>
                     </div>
                 ))}

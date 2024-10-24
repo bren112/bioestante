@@ -124,6 +124,11 @@ function Login() {
             </div>
 
             <div className="centro">
+            <Link to={'/noticias'}>
+              <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+</svg></button>
+            </Link>
             <button onClick={toggleReadingMode} className="toggle-reading-mode">
             {readingMode ? 'Desativar' : 'Modo Leitura'}
           </button>
@@ -133,6 +138,7 @@ function Login() {
                 <path fillRule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
               </svg>
             </button>
+         
             </div>
           </div>
 
@@ -143,13 +149,17 @@ function Login() {
 
           {/* pesquisa */}
           {/*A função de filtragem utiliza o valor de searchQuery para mostrar apenas os artigos cujo título corresponde à pesquisa. Isso é feito com o método filter aplicado à lista de artigos.*/}
+          <div className="centro">
           <input
+          id='pesquisar'
             type="text"
             placeholder="Pesquisar pelo título"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="search-input"
+
           />
+          </div>
           <br />
           <br />
 

@@ -20,7 +20,14 @@ text-align: center;
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
+#pesquisar{
+  width: 49%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 2pc;
+}
 #titulo-ebook {
   font-size: 6pc;
   font-family: "Jolly Lodger", system-ui;

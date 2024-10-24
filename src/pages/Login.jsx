@@ -11,7 +11,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
-import urso from './ursopolar.jpg';
+import urso from './tucano.jpg';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -249,7 +249,7 @@ function Login() {
                 />
               </div>
               <br/>
-              <button type="submit">Entrar</button>
+              <button id='entrar' type="submit">Entrar</button>
               <br/>
               <Link to="/cadastrar">
                 <button id="semConta">Não Tenho uma conta!</button>

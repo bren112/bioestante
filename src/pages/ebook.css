@@ -28,6 +28,9 @@ text-align: center;
   font-size: 1rem;
   margin-left: 2pc;
 }
+#entrar{
+  background-color: rgb(19, 123, 30);
+}
 #titulo-ebook {
   font-size: 6pc;
   font-family: "Jolly Lodger", system-ui;

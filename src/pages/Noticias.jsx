@@ -29,7 +29,7 @@ function Noticias() {
       <div className="busca">
         <div className="buscar"></div>
       </div>
-      <h1 id='recados-title'>RECADOS</h1>
+      <h1 id='recados-title'>AVISOS</h1>
       <br />
       <div className="recados">
         {avisos.length > 0 ? (

@@ -170,7 +170,7 @@ function Login() {
               {filteredArticles.map(article => (
                 <div className="card" key={article.id}>
                   <img src={article.imagem} alt={article.titulo} className="card-image" /> 
-                  <h2 id='title' className="card-title">{'"'+article.titulo+'"'}</h2>
+                  {/* <h2 id='title' className="card-title">{'"'+article.titulo+'"'}</h2> */}
                   <p id='' className="card-desc">{article.desc}</p>
                   <br />
                   <div className="botoes">
